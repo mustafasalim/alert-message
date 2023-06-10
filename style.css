@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7E6C4;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+
+/* all button features */
+.btn {
+    margin: 10px;
+    border: 0;
+    font-size: 18px;
+    width: 130px;
+    height: 30px;
+    transition: 0.25s;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+/* btn2 features */
+
+.btn2 {
+
+    background-color: #CD1818;
+}
+
+/* bt1 features */
+.btn1 {
+
+    background-color: #00DFA2;
+
+}
+
+/* btn1 hover features */
+.btn1:hover {
+
+    opacity: 75%;
+    transition: 0.25s;
+
+
+
+}
+
+/* btn2 hover features */
+.btn2:hover {
+    opacity: 75%;
+    transition: 0.25s;
+
+
+}
+
+/* alert features */
+.alert {
+    position: relative;
+    width: 300px;
+    height: 300px;
+
+}
+
+/* show-alert features */
+.show-alert {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: 75px;
+    background-color: #fff;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 7px;
+    transition: 1s;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+}
+
+/* show-alert icon features */
+.show-alert .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+/* show-alert h4 features */
+.show-alert h4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* show-alert-success features */
+
+.show-alert-success .icon {
+    border: 2px solid #00DFA2;
+
+}
+
+.show-alert-success h4 {
+    color: #00DFA2;
+}
+
+.show-alert-success ion-icon {
+    color: #00DFA2;
+}
+
+/* show-alert-danger features */
+.show-alert-danger .icon {
+
+    border: 2px solid #CD1818;
+}
+
+.show-alert-danger h4 {
+    color: #CD1818;
+}
+
+.show-alert-danger ion-icon {
+    color: #CD1818;
+}
+
+/* animation features */
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: -100px;
+    }
+
+    25% {
+        left: 0px;
+        top: 30px;
+    }
+
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+
+    75% {
+        left: 0px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: -100px;
+    }
+}
